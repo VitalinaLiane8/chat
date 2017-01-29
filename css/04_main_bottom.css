@@ -1,0 +1,22 @@
+.main_bottom {
+  height: 150px;
+  min-width: 400px;
+
+  padding: 2.5%;
+  padding-top: 0;
+
+  box-sizing: border-box;
+
+  box-shadow: 0 0 10px Aqua;
+  background-color: Aqua;
+}
+
+.main_bottom_in {
+  height: 100%;
+  padding: 1%;
+
+  box-sizing: border-box;
+
+  box-shadow: 0 0 10px LightGreen;
+  background-color: LightGreen;
+}

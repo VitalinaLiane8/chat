@@ -1,0 +1,18 @@
+BODY {
+  background-color: LightGoldenRodYellow;
+
+  font-size: 90%;
+  font-family: 'Rubik', sans-serif;
+
+  color: #001616;
+}
+
+.content {
+  width: 70%;
+
+  margin: 0 auto;
+}
+
+.aside_main {
+  margin: 0 auto;
+}

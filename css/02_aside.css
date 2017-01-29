@@ -1,0 +1,43 @@
+ASIDE {
+  width: 25%;
+  height: 500px;
+  min-width: 150px;
+
+  padding: 2.5%;
+
+  float: left;
+  box-sizing: border-box;
+
+  box-shadow: 0 0 10px Aqua;
+  background-color: Aqua;
+}
+
+.aside_online {
+  display: inline-block;
+  padding: 3%;
+  box-sizing: border-box;
+
+  box-shadow: -2px -2px 10px Aqua;
+  background-color: Aqua;
+}
+
+.aside_in {
+  height: 100%;
+
+  box-sizing: border-box;
+
+  box-shadow: 0 0 10px white;
+  background-color: Aquamarine;
+}
+
+.aside_in LI {
+  padding-bottom: 2%;
+  list-style: none;
+}
+
+.aside_in LI:hover {
+  cursor: pointer;
+
+  color: LightGoldenRodYellow;
+  text-shadow: 0 0 5px Aqua;
+}
