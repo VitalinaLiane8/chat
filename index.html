@@ -6,6 +6,9 @@
 
     <title>Чат. Виталина.</title>
 
+    <link rel="stylesheet" media="all" href="css/bootstrap/bootstrap.css">
+    <link rel="stylesheet" media="all" href="css/bootstrap/bootstrap-responsive.css">
+
     <link rel="stylesheet" media="all" href="css/00_reset.css">
     <link rel="stylesheet" media="all" href="css/01_header.css">
     <link rel="stylesheet" media="all" href="css/02_aside.css">
@@ -21,7 +24,22 @@
     <div class = 'content'>
       <header>
         <div class = 'header_in'>
-          HEADER
+          <div class = 'header_left'>
+            <div class="header_time">
+              <div>
+                You are online for: 1h 30m
+              </div>
+              <div>
+                Your local time is: 10:45
+              </div>
+            </div>
+            </br>
+            <div class="header_msg header_a">
+                <a href="#">Edit personal info</a>
+                <a href="#">Private messages (3)</a>
+            </div>
+          </div>
+          <img src="imgs/birds.png" class="birds">
         </div>
       </header>
 
@@ -54,11 +72,13 @@
               </div>
 
               <div class = 'main_top__chat main_top__more_chat'>
-                Chat with Alison (2) [x]
+                Chat with Alison (2) <span class = 'chat_close'>[x]</span>
               </div>
 
               <div class = 'main_top_in_content'>
-                MAIN TOP
+                <div><a href="#">John Snow:</a><span class="main_msg"> Hi, how is the weather there?</span></div>
+                <div><a href="#">Alison Black:</a><span class="main_msg"> It's snowy, temperature here is 10 degrees below zero celsius.</span></div>
+                <div><a href="#">John Snow:</a><span class="main_msg"> Wuh, it seems winter has come indeed...</span></div>
               </div>
             </div>
           </div>
@@ -73,7 +93,29 @@
 
       <footer>
         <div class = 'footer_in'>
-          FOOTER
+
+          <section class="footer_setting">
+            <div class="footer_info">
+              <div class="info">31 characters entered</div>
+              <div class="info">25 letters entered</div>
+              <div class="info">4 whitespace characters entered</div>
+              <div class="info">2 punctuation marks entered</div>
+            </div>
+
+            <div class="footer_style_btn">
+              <ul class="style_btns">
+                <li class="style_btn b"> B</li>
+                <li class="style_btn i">/</li>
+                <li class="style_btn u">U</li>
+              </ul>
+              <ul class="footer_link">
+                <li>Link</li>
+              </ul>
+            </div>
+
+            <button class="send_btn btn btn-info">Send message</button>
+          </section>
+
         </div>
       </footer>
 

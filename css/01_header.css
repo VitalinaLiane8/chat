@@ -12,5 +12,36 @@ HEADER {
   height: 100%;
   padding: 1%;
   padding-top: 2%;
+
   box-sizing: border-box;
+  border-radius: 5px;
+
+  box-shadow: 0 1px 100px LightGreen;
+  background-color: LightGoldenRodYellow;
+}
+
+.header_left {
+  float: left;
+  font-size: 80%;
+}
+
+.birds {
+  width: 400px;
+  height: 70px;
+}
+
+.header_in A {
+  display: block;
+  vertical-align: middle;
+
+  font-size: 110%;
+  font-family: 'Marck Script', cursive;
+}
+
+.header_a {
+  line-height: 105%;
+}
+
+.header_a A:hover {
+  text-decoration: none;
 }

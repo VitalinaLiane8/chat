@@ -47,3 +47,11 @@ MAIN {
 .main_top_in_content {
   padding-top: 1%;
 }
+
+.main_top_in_content A {
+  text-decoration: underline;
+}
+
+.main_top_in_content DIV {
+  margin: 10px;
+}

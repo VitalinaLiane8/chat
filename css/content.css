@@ -7,6 +7,10 @@ BODY {
   color: #001616;
 }
 
+A {
+  font-family: 'Marck Script', cursive;
+}
+
 .content {
   width: 70%;
 
